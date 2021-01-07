@@ -1,0 +1,46 @@
+.conten{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+   
+}
+.conten .box{
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.conten .box .column{
+    width: 20%;
+    height: 500px;
+    padding: 20px;
+}
+.conten .box .column .row1{
+    width: 100%;
+    height: 50%;
+}
+.conten .box .column .row1 img{
+    width: 100%;
+    height: 100%;
+}
+.conten .box .column .row2{
+    width: 100%;
+    height: 40%;
+    padding: 20px 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.conten .box .column .row3{
+    width: 100%;
+    height: 10%;
+    padding: 5px 0;
+}
+.conten .box .column .row3 button{
+    width: 125px;
+    font-size: 20px;
+    border: 0.1px solid lightgray;
+    border-radius: 6px;
+    outline: 0.2px gray;
+}
